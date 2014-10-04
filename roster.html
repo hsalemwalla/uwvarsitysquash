@@ -29,9 +29,10 @@
 
     <script src="js/common.js"></script>
     <script src="js/roster.js"></script>
+    <script src="js/json/roster.json"></script>
 </head>
 
-<body onload="generateNavigationBar(); populateRoster();">
+<body onload="generateNavigationBar(); populateRosterDiv();">
 
     <!-- Navigation -->
     <nav id="navBar" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -55,11 +56,21 @@
             </div>
         </div>
         <!-- /.row -->
+        
+        <div class="row">
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs" role="tablist">
+                <li class="active"><a href="#mensRoster" role="tab" data-toggle="tab">Men's Roster</a></li>
+                <li><a href="#womensRoster" role="tab" data-toggle="tab">Women's Roster</a></li>
+            </ul>
 
-        <!-- Team Members -->
-        <div id="roster" class="row"></div>
+            <!-- Tab panes -->
+            <div class="tab-content">
+                <div class="tab-pane fade in active" id="mensRoster"><!-- Populated in Javascript --></div>
+                <div class="tab-pane fade" id="womensRoster"><!-- Populated in Javascript --></div>
+            </div>
+        </div>
         <!-- /.row -->
-
 
         <!-- Horizontal Rule -->
         <hr>
