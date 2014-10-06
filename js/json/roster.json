@@ -15,7 +15,7 @@ mens =
         {"name":"Blake Reinson"      , "image":"Blake.jpg" , "description":"Description Here"} , 
         {"name":"Hussein Salemwalla" , "image":"Hussein.jpg" , "description":"Description Here"} , 
         {"name":"Cameron Seth"       , "image":"Cameron.jpg" , "description":"Description Here"} , 
-        {"name":"Ben Sinai"          , "image":"Ben.jpg" , "description":"Description Here"} , 
+        {"name":"Ben Sinai"          , "image":"https://raw.githubusercontent.com/hsalemwalla/uwvarsitysquash/gh-pages/img/Ben.JPG" , "description":"Description Here"} , 
         {"name":"Michael Yetisir"    , "image":"Michael.jpg" , "description":"Description Here"}  
     ];
 
