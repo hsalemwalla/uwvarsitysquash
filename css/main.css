@@ -91,3 +91,21 @@ footer {
         height: 70%;
     }
 }
+
+
+/* Custom CSS */
+
+.navBarText {
+    color: #FFDA00 !important;
+}
+
+.navBarBackground {
+    background-color: #060606;
+    border-color: #060606;
+}
+
+.banner {
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
