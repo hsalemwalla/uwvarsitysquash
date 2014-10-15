@@ -109,3 +109,8 @@ footer {
     margin-left: auto;
     margin-right: auto 
 }
+
+.nav-tabs {
+    margin-right: 15px;
+    margin-left: 15px;
+}

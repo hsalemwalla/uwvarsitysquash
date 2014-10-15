@@ -6,9 +6,7 @@ function populateRosterDiv() {
 function populateRosterMens() {
     
     var rosterHTML = "";
-    rosterHTML += '<div class="col-lg-12">';
-    rosterHTML += '<h2 class="page-header">Our Team</h2>';
-    rosterHTML += '</div>';
+    rosterHTML += "<br>";
     
     // Generate a string with each of the entries in the parsed json
     for (var i = 0; i < mens.length; i++) {
@@ -22,9 +20,7 @@ function populateRosterMens() {
 function populateRosterWomens() {
     
     var rosterHTML = "";
-    rosterHTML += '<div class="col-lg-12">';
-    rosterHTML += '<h2 class="page-header">Our Team</h2>';
-    rosterHTML += '</div>';
+    rosterHTML += "<br>";
     
     // Generate a string with each of the entries in the parsed json
     for (var i = 0; i < womens.length; i++) {
