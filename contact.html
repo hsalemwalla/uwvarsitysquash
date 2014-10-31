@@ -31,7 +31,13 @@
 
 </head>
 
-<body onload="init(); generateMap();">
+<!-- Note: I have commented out this line to generateMap, as well as the 
+    html for the contact cards because these are not ready yet. Once they are
+    done we should uncomment this line and the lines below.
+    I had to change the comment markup from double dash to dash space dash to 
+    handle the nested comments -->
+<!-- <body onload="init(); generateMap();"> -->
+<body onload="init();" >
 
     <!-- Navigation -->
     <nav id="navBar" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -51,8 +57,22 @@
             </div>
             <!-- /.row -->
         </div>
+
+
+        <!-- temporary "coming soon" until we get the contact stuff done -->
         <div class="box">
-            <!-- Content Row -->
+            <!-- Intro Content -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Coming Soon!</p>
+                </div>
+            </div>
+            <!-- /.row -->
+        </div>
+
+
+<!--        <div class="box">
+            <!- - Content Row - ->
             <div class="row">
                 <div class="col-md-12">
                     <br>
@@ -112,11 +132,11 @@
         <div class="box">
             <div class="row">
                 <div id="googlemap">
-                     <!-- Generate the map after the page loads -->
+                     <!- - Generate the map after the page loads - ->
                 </div>
             </div>
         </div>
-
+-->
         <hr>
 
         <!-- Footer -->
