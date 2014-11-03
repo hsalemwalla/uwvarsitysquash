@@ -35,7 +35,7 @@ function generatePlayerDiv(name, img, desc) {
     var str;
     str = '<div class="col-md-4 text-center">';
     str += '<div class="thumbnail">';
-    str += '<img href="#" class="img-responsive" src="img/' + img + '" onerror=\"this.src=\'img/headshotNotFound.jpg\'\" alt="Image Not Found">';
+    str += '<img href="#" class="img-responsive" src="img/' + img + '" onerror=\"this.src=\'img/headshotNotFound.JPG\'\" alt="Image Not Found">';
     str += '<div class="caption">';
     str += '<h3>';
     str += name;
