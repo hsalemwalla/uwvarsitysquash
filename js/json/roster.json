@@ -36,3 +36,9 @@ womens =
         {"name":"Ridah Ratanshi"     , "image":"Ridah.JPG"    , "description":""} , 
         {"name":"Natasha Seth"       , "image":"Natasha.JPG"  , "description":""}
     ];
+
+coaches = 
+    [
+        {"name":"Vinit Kudva"  , "image":"Vinit.JPG" , "description":""} , 
+        {"name":"Clive Porter" , "image":"Clive.JPG" , "description":""}  
+    ];
