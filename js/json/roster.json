@@ -5,36 +5,34 @@ mens =
         {"name":"Blake Reinson"      , "image":"Blake.JPG"   , "description":""} , 
         {"name":"Diego Caballero"    , "image":"Diego.JPG"   , "description":""} , 
         {"name":"Matthew Mackenzie"  , "image":"Matthew.JPG" , "description":""} , 
-        {"name":"Syed Ubaid Ali"     , "image":"Syed.JPG"    , "description":""} , 
-        {"name":"Tom Blaikie"        , "image":"Tom.JPG"     , "description":""} , 
-        {"name":"Jared Gour"         , "image":"Jared.JPG"   , "description":""} , 
-        {"name":"Luke Humphrey"      , "image":"Luke.JPG"    , "description":""} , 
-        {"name":"Andrew Kane"        , "image":"Andrew.JPG"  , "description":""} , 
-        {"name":"Shrinu Kushagra"    , "image":"Shrinu.JPG"  , "description":""} , 
-        {"name":"Mostafa Mohamed"    , "image":"Mostafa.JPG" , "description":""} , 
-        {"name":"Krishna Murali"     , "image":"Krishna.JPG" , "description":""} , 
-        {"name":"Jeff Porter"        , "image":"JeffP.JPG"   , "description":""} , 
         {"name":"Taran Ravindran"    , "image":"Taran.JPG"   , "description":""} , 
+        {"name":"Jeff Porter"        , "image":"JeffP.JPG"   , "description":""} , 
+        {"name":"Michael Yetisir"    , "image":"Michael.JPG" , "description":""} ,
+        {"name":"Luke Humphrey"      , "image":"Luke.JPG"    , "description":""} , 
         {"name":"Ben Sinai"          , "image":"Ben.JPG"     , "description":""} , 
-        {"name":"Michael Yetisir"    , "image":"Michael.JPG" , "description":""}
+        {"name":"Shrinu Kushagra"    , "image":"Shrinu.JPG"  , "description":""} , 
+        {"name":"Syed Ubaid Ali"     , "image":"Syed.JPG"    , "description":""} , 
+        {"name":"Mostafa Mohamed"    , "image":"Mostafa.JPG" , "description":""} , 
+        {"name":"Jared Gour"         , "image":"Jared.JPG"   , "description":""} , 
+        {"name":"Krishna Murali"     , "image":"Krishna.JPG" , "description":""} , 
+        {"name":"Tom Blaikie"        , "image":"Tom.JPG"     , "description":""}  
     ];
 
 womens = 
     [
-        {"name":"Jillian Anderson"   , "image":"Jillian.JPG"  , "description":""} , 
-        {"name":"Adaboa Biney-Assan" , "image":"Adaboa.JPG"   , "description":""} , 
-        {"name":"Kristin Elton"      , "image":"Kristin.JPG"  , "description":""} , 
-        {"name":"Tori Grootjen"      , "image":"ToriG.JPG"    , "description":""} , 
-        {"name":"Hella Hoffmann"     , "image":"Hella.JPG"    , "description":""} , 
-        {"name":"Sylvia Jorge"       , "image":"Sylvia.JPG"   , "description":""} , 
-        {"name":"Olivia Lennox"      , "image":"Olivia.JPG"   , "description":""} , 
         {"name":"Grace Leung"        , "image":"Grace.JPG"    , "description":""} , 
-        {"name":"Priya Murali"       , "image":"Priya.JPG"    , "description":""} , 
-        {"name":"Pryangka Rao"       , "image":"Pryangka.JPG" , "description":""} , 
         {"name":"Marisa Seth"        , "image":"Marisa.JPG"   , "description":""} , 
+        {"name":"Adaboa Biney-Assan" , "image":"Adaboa.JPG"   , "description":""} , 
+        {"name":"Priya Murali"       , "image":"Priya.JPG"    , "description":""} , 
         {"name":"Tori Sypher"        , "image":"ToriS.JPG"    , "description":""} , 
+        {"name":"Sylvia Jorge"       , "image":"Sylvia.JPG"   , "description":""} , 
+        {"name":"Jillian Anderson"   , "image":"Jillian.JPG"  , "description":""} , 
+        {"name":"Pryangka Rao"       , "image":"Pryangka.JPG" , "description":""} , 
+        {"name":"Tori Grootjen"      , "image":"ToriG.JPG"    , "description":""} , 
+        {"name":"Kristin Elton"      , "image":"Kristin.JPG"  , "description":""} , 
+        {"name":"Hella Hoffmann"     , "image":"Hella.JPG"    , "description":""} , 
         {"name":"Ridah Ratanshi"     , "image":"Ridah.JPG"    , "description":""} , 
-        {"name":"Natasha Seth"       , "image":"Natasha.JPG"  , "description":""}
+        {"name":"Olivia Lennox"      , "image":"Olivia.JPG"   , "description":""} 
     ];
 
 coaches = 

@@ -1,6 +1,7 @@
 function populateRosterDiv() {
     populateRosterMens();
     populateRosterWomens();
+    populateCoaches();
 }
 
 function populateRosterMens() {
@@ -28,6 +29,20 @@ function populateRosterWomens() {
     }
 
     document.getElementById("womensRoster").innerHTML = rosterHTML;
+
+}
+
+function populateCoaches() {
+    
+    var rosterHTML = "";
+    rosterHTML += "<br>";
+    
+    // Generate a string with each of the entries in the parsed json
+    for (var i = 0; i < coaches.length; i++) {
+        rosterHTML += generatePlayerDiv(coaches[i].name, coaches[i].image, coaches[i].description);
+    }
+
+    document.getElementById("coaches").innerHTML = rosterHTML;
 
 }
 
