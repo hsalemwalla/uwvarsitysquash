@@ -27,6 +27,9 @@ function generateNavigationBar() {
     navBar += '<li>';
     navBar += '<a href="contact.html" class="navBarText">Contact</a>';
     navBar += '</li>';
+    navBar += '<li>';
+    navBar += '<a href="calendar.html" class="navBarText">Calendar</a>';
+    navBar += '</li>';
     navBar += '<li class="dropdown">';
     navBar += '<a href="#" class="dropdown-toggle navBarText" data-toggle="dropdown">Schedules<b class="caret"></b></a>';
     navBar += '<ul class="dropdown-menu">';
