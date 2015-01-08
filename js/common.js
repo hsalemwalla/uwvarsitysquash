@@ -30,17 +30,11 @@ function generateNavigationBar() {
     navBar += '<li>';
     navBar += '<a href="calendar.html" class="navBarText">Calendar</a>';
     navBar += '</li>';
-    navBar += '<li class="dropdown">';
-    navBar += '<a href="#" class="dropdown-toggle navBarText" data-toggle="dropdown">Schedules<b class="caret"></b></a>';
-    navBar += '<ul class="dropdown-menu">';
     navBar += '<li>';
-    navBar += '<a href="drillday.html">Drill Day</a>';
+    navBar += '<a href="practices.html" class="navBarText">Practices</a>';
     navBar += '</li>';
-    navBar += '<li>';
-    navBar += '<a href="matchday.html">Match Day</a>';
-    navBar += '</li>';
-    navBar += '</ul>';
-    navBar += '</li>';
+    
+
     /*
      *navBar += '<li class="dropdown">';
      *navBar += '<a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <b class="caret"></b></a>';
