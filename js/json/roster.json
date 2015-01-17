@@ -33,7 +33,9 @@ womens =
         {"name":"Kristin Elton"      , "image":"Kristin.JPG"  , "description":""} , 
         {"name":"Hella Hoffmann"     , "image":"Hella.JPG"    , "description":""} , 
         {"name":"Ridah Ratanshi"     , "image":"Ridah.JPG"    , "description":""} , 
-        {"name":"Olivia Lennox"      , "image":"Olivia.JPG"   , "description":""} 
+        {"name":"Olivia Lennox"      , "image":"Olivia.JPG"   , "description":""} ,
+        {"name":"Heather Van Haren"  , "image":"Olivia.JPG"   , "description":""} ,
+        {"name":"Mindy Blumberg"     , "image":"Olivia.JPG"   , "description":""} 
     ];
 
 coaches = 
