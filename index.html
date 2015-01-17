@@ -18,6 +18,10 @@
     <script src="js/bootstrap.min.js"></script>
     <!-- Javascript for common page loading -->
     <script src="js/common.js"></script>
+    <!-- Javascript for index page functions -->
+    <script src="js/index.js"></script>
+    <!-- JSON containing news articles -->
+    <script src="js/json/news.json"></script>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -30,7 +34,7 @@
 
 </head>
 
-<body onload="init();">
+<body onload="init(); generateNews();">
 
     <!-- Navigation -->
     <nav id="navBar" class="navbar navbar-inverse navbar-fixed-top navBarBackground" role="navigation">
@@ -45,63 +49,18 @@
                     <div>
                         <img src="img/banner-comb.jpg" class="banner" alt="">
                     </div>
-                    <h2 class="intro-text text-center">
+                    <h1 class="intro-text text-center">
                         University of Waterloo's Varsity Squash 
-                    </h2>
-                </div>
-            </div>
-        </div>
-        
-        <div class="box">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="box-content">
-                        <hr>
-                        <h2 class="intro-text text-center">Men's Squash Team wins Black Knight Tournament
-                        </h2>
-                        <hr>
-                        <p>The Men's Squash team competed in the Black Knight 9 Player Tournament this past weekend at the University of Toronto. The Warriors were looking to improve on their 4th place finish from last year at this event.
-                        <p>The Warriors cruised past Guelph in the semi-finals, winning 9-0 without dropping a single game in the matchup. Rookies Taran Ravindran, Blake Reinson, Shrinu Kushagra and Mike Yetisir all saw their first action representing Waterloo.
-                        <p>In the finals, the black and gold faced a strong University of Toronto squad. The Warriors had a slow start, losing close matches at position 6, 7 and 8. However, veterans Hussein Salemwalla (Maple), Diego Caballero (Bucamaranga) and Cameron Seth (Fergus) gained crucial wins to tie up the match. Wins from Ben Sinai, Taran Ravindran and Blake Reinson settled the match, giving the Warriors a 6-3 victory.
-                        <p>Next up for the squash team is the Women's BK9 taking place this weekend, followed by the West Sectional's on November 1-2.
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="box">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="box-content">
-                        <hr>
-                        <h2 class="intro-text text-center">News
-                        </h2>
-                        <hr>
-                        <h4>
-                            Website Updates
-                        </h4>
-                        <ul>
-                            <li><a href="drillday.html">Drill</a> and <a href="matchday.html">Match</a> day schedule for January coming soon.</li>
-                            <li>Dryfit T-shirts are with Cameron. Message him to pick up.</li>
-                            <li>More news...</li>
-                        </ul>
-                        <h4>
-                            Upcoming Events 
-                        </h4>
-                        <ul>
-                            <li>January 17: Guelph Fundraiser @ University of Guelph (Optional)</li>
-                            <li>January 30 - February 1: OUA's @ Northfield Club</li>
-                            <li>February 7-8: West Sectional #2 @ Western University</li>
-                            <li>February 28: Jesters Finals @ NSA (Team must qualify)</li>
-                            <li>March 6-8: Canadian University Champs @ Toronto (Optional)</li>
-                            <li>March 27: Athletic Banquet @ UW (Tentative date)
-                        </ul>
-                    </div>
+                    </h1>
                 </div>
             </div>
         </div>
     </div>
+        
     <!-- /.container -->
+    <div id="newsContainer" class="container">
+        <!-- Javascript generates the news -->       
+    </div>
 
 
     <footer>
