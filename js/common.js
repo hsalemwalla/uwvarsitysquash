@@ -33,6 +33,9 @@ function generateNavigationBar() {
     navBar += '<li>';
     navBar += '<a href="practices.html" class="navBarText">Practices</a>';
     navBar += '</li>';
+    navBar += '<li>';
+    navBar += '<a href="drills.html" class="navBarText">Drills</a>';
+    navBar += '</li>';
     
 
     /*

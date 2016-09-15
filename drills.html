@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>UW Varsity Squash - Roster</title>
+    <title>UW Varisty Squash - Drills</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -26,13 +26,13 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
     <script src="js/common.js"></script>
-    <script src="js/roster.js"></script>
-    <script src="js/json/roster.json"></script>
+    <script src="js/drills.js"></script>
+
+
 </head>
 
-<body onload="generateNavigationBar(); populateRosterDiv();">
+<body onload="generateNavigationBar();">
 
     <!-- Navigation -->
     <nav id="navBar" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -45,29 +45,51 @@
             <div class="row">
                 <div class="col-lg-12">
                     <h2 class="intro-text text-center">
-                        Roster
+                        Drills
                     </h2>
                 </div>
             </div>
-            <!-- /.row -->
         </div>
+        <!-- Content Row -->
         <div class="box">
             <div class="row">
-                <ul class="nav nav-tabs" role="tablist">
-                    <li class="active"><a href="#mensRoster" role="tab" data-toggle="tab">Men's Roster</a></li>
-                    <li><a href="#womensRoster" role="tab" data-toggle="tab">Women's Roster</a></li>
-                    <li><a href="#coaches" role="tab" data-toggle="tab">Coaches</a></li>
-                </ul>
-
-                <!-- Tab panes -->
-                <div class="tab-content">
-                    <div class="tab-pane fade in active" id="mensRoster"><!-- Populated in Javascript --></div>
-                    <div class="tab-pane fade" id="womensRoster"><!-- Populated in Javascript --></div>
-                    <div class="tab-pane fade" id="coaches"><!-- Populated in Javascript --></div>
+                <!-- Sidebar Column -->
+                <div class="col-md-12">
+                    <div class="box center">
+                        <button id="but_warmup" class="button" onclick="drillCategorySelect(this)">Warm-up</button>
+                        <button id="but_footwork" class="button" onclick="drillCategorySelect(this)">Footwork</button>
+                        <button id="but_volleys" class="button" onclick="drillCategorySelect(this)">Volleys</button>
+                        <button id="but_conditionalgames" class="button" onclick="drillCategorySelect(this)">Conditional Games</button>
+                        <button id="but_technique" class="button" onclick="drillCategorySelect(this)">Technique</button>
+                    </div>
                 </div>
+            </div>
+
+        <div class="box">
+            <div class="row">
+                <!-- Content Column --><!--{{{-->
+                <div class="col-md-12">
+                    <div id="warmup" class="box">
+                        warmup
+                    </div>
+                    <div id="footwork" class="box">
+                        footwork
+                    </div>
+                    <div id="volleys" class="box">
+                        volleys
+                    </div>
+                    <div id="conditionalgames" class="box">
+                        condtional games
+                    </div>
+                    <div id="technique" class="box">
+                        technique
+                    </div>
+                </div>
+<!--}}}-->
             </div>
             <!-- /.row -->
         </div>
+
         <!-- Horizontal Rule -->
         <hr>
 
