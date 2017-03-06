@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>UW Varsity Squash</title>
+
+
+    <!-- jQuery Version 1.11.0 -->
+    <script src="js/jquery-1.11.0.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Javascript for common page loading -->
+    <script src="js/common.js"></script>
+    <!-- Javascript for index page functions -->
+    <script src="js/index.js"></script>
+    <!-- JSON containing news articles -->
+    <script src="js/json/news.json"></script>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/main.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+
+</head>
+
+<body onload="init(); generateNews();">
+
+    <!-- Navigation -->
+    <nav id="navBar" class="navbar navbar-inverse navbar-fixed-top navBarBackground" role="navigation">
+    <!-- Populated in Javascript -->
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+        <div class="box box-banner">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div>
+                        <img src="img/banner-comb.jpg" class="banner" alt="">
+                    </div>
+                    <h1 class="intro-text text-center">
+                        University of Waterloo's Varsity Squash 
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    <!-- /.container -->
+    <div id="newsContainer" class="container">
+        <!-- Javascript generates the news -->       
+    </div>
+
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <p>Copyright &copy; UW Varsity Squash 2015</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

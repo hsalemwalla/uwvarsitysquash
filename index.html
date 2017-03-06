@@ -9,60 +9,82 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>UW Varsity Squash</title>
-
-
-    <!-- jQuery Version 1.11.0 -->
-    <script src="js/jquery-1.11.0.js"></script>
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-    <!-- Javascript for common page loading -->
-    <script src="js/common.js"></script>
-    <!-- Javascript for index page functions -->
-    <script src="js/index.js"></script>
-    <!-- JSON containing news articles -->
-    <script src="js/json/news.json"></script>
+    <title>UW Varsity Squash - Contact Us</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+
     <!-- Custom CSS -->
     <link href="css/main.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script src="js/common.js"></script>
 
 </head>
 
-<body onload="init(); generateNews();">
+<body onload="init();" >
 
     <!-- Navigation -->
-    <nav id="navBar" class="navbar navbar-inverse navbar-fixed-top navBarBackground" role="navigation">
+    <nav id="navBar" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
     <!-- Populated in Javascript -->
     </nav>
 
     <!-- Page Content -->
     <div class="container">
         <div class="box box-banner">
+            <!-- Page Heading/Breadcrumbs -->
             <div class="row">
                 <div class="col-lg-12">
-                    <div>
-                        <img src="img/banner-comb.jpg" class="banner" alt="">
-                    </div>
-                    <h1 class="intro-text text-center">
-                        University of Waterloo's Varsity Squash 
-                    </h1>
+                    <h2 class="intro-text text-center">
+                        Calendar
+                    </h2>
                 </div>
             </div>
+            <!-- /.row -->
         </div>
     </div>
-        
     <!-- /.container -->
-    <div id="newsContainer" class="container">
-        <!-- Javascript generates the news -->       
+
+
+    <div class="container">
+        <div class="box">
+            <div class="row">
+                <div class="col-lg-12">
+                    <br>
+                    <ul>
+                        <li>Sept 25 - UW Fundraiser Tournament</li>
+                        <li>Sept 30/Oct 1 - Northfield Cup @ Waterloo</li>
+                        <li>TBD - Visit Juniors @ Windsor</li>
+                        <li>Oct 22/23 - West Sectional 1 @ Waterloo</li>
+                        <li>TBD - Jesters KW Event @ KW Racquet Club (Kitchener)</li>
+                        <li>Nov 19/20 - Crossovers @ Queens</li>
+                        <li>Jan 14/15 - West Sectional 2 @ McMaster</li>
+                        <li>Feb 3-5 - OUAs @ Waterloo </li>
+                        <li>Mar 11/12 - Jester Finals @ Toronto</li>
+                        <li>Mar 3-5 - Canadian University & College Championships @ Waterloo</li>
+                    </ul> 
+                    <!-- TODO: Hussein, uncomment this code and the iframe below once you update the google cal -->
+                    <p>Alternately, here is a link to the google calendar: 
+                        <a href="https://www.google.com/calendar/embed?src=6adv90gphmou70jmbbvqfbvvdc%40group.calendar.google.com&ctz=America%2FToronto">Google Calendar</a> 
+                    </p>
+                </div>
+            </div>
+
+            <iframe src="https://www.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=6adv90gphmou70jmbbvqfbvvdc%40group.calendar.google.com&amp;color=%235F6B02&amp;ctz=America%2FToronto" style=" border-width:0 " width="100%" height="600" frameborder="0" scrolling="no"></iframe>
+            </div>
     </div>
+    <!-- /.container -->
 
-
+    <hr>
+    <!-- Footer -->
     <footer>
         <div class="container">
             <div class="row">
@@ -72,6 +94,13 @@
             </div>
         </div>
     </footer>
+
+
+    <!-- jQuery Version 1.11.0 -->
+    <script src="js/jquery-1.11.0.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
 
 </body>
 

@@ -13,7 +13,7 @@ function generateNavigationBar() {
     navBar += '<span class="icon-bar"></span>';
     navBar += '<span class="icon-bar"></span>';
     navBar += '</button>';
-    navBar += '<a class="navbar-brand navBarText" href="index.html">Home</a>';
+    navBar += '<a class="navbar-brand navBarText" href="index_old.html">Home</a>';
     navBar += '</div>';
     navBar += '<!-- Collect the nav links, forms, and other content for toggling -->';
     navBar += '<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">';
