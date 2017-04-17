@@ -2,6 +2,10 @@ news =
     [
         // Insert new articles here
          {
+             "title":"2016-2017 Team awards!",
+             "article":"<a href=\"files/2016_2017_certificates.pdf\">2016_2017_certificates.pdf</a>"
+         },
+         {
              "title":"UW Varsity Squash Fundraiser",
              "article":"<p>The UW Fall Open Squash Tournament is here again! The tournament is open to everyone. See details below: <p>Date: Sunday September 27, 2015 <br>Location: UW PAC Courts <br>Cost: $20 per person <br>Categories: A - Experienced, B - Intermediate, C - Beginner <br>3 matches guaranteed <p>Tournament Site: <a href=\"https://goo.gl/JvmScs\">https://goo.gl/JvmScs</a> <p>Registration Form: <a href=\"https://goo.gl/3mh6FR\">https://goo.gl/3mh6FR</a> <p>Any questions? Contact Cameron (<a href=\"mailto:c.seth8@gmail.com\">c.seth8@gmail.com</a>) or Hussein (<a href=\"mailto:hsalemwalla@gmail.com\">hsalemwalla@gmail.com</a>)"
          },
