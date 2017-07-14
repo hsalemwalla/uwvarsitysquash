@@ -26,7 +26,7 @@ mens =
 
 womens = 
     [
-          { "name":"Marisa Seth"       , "image":"Marisa_S.JPG"   , "description":"" }  , 
+          { "name":"Marisa Seth"       , "image":"Marisa.JPG"   , "description":"" }  , 
           { "name":"Priya Murali"      , "image":"Priya_M.JPG"    , "description":"" }  , 
           { "name":"Tori Sypher"       , "image":"Victoria_S.JPG"    , "description":"" }  , 
           { "name":"Sylvia Jorge"      , "image":"Sylvia_J.JPG"   , "description":"" }  , 
