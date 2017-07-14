@@ -1,28 +1,19 @@
 mens = 
     [
-          { "name":"Cameron Seth"       , "image":"Cameron_S.JPG" , "description":"" }  , 
-          { "name":"Hussein Salemwalla" , "image":"Hussein_S.JPG" , "description":"" }  , 
-          { "name":"Blake Reinson"      , "image":"Blake_R.JPG"   , "description":"" }  , 
+          { "name":"Ryan Harrs"       , "image":"Cameron_S.JPG" , "description":"" }  , 
+          { "name":"Ravi Seth"       , "image":"Cameron_S.JPG" , "description":"" }  , 
+           { "name":"Thomas Manley"       , "image":"Cameron_S.JPG" , "description":"" }  , 
           { "name":"Diego Caballero"    , "image":"Diego_C.JPG"   , "description":"" }  , 
           { "name":"Matthew Mackenzie"  , "image":"Matthew_M.JPG" , "description":"" }  , 
           { "name":"Taran Ravindran"    , "image":"Taran_R.JPG"   , "description":"" }  , 
-          { "name":"Jeff Porter"        , "image":"Jeff_P.JPG"   , "description":"" }  , 
-          { "name":"Michael Yetisir"    , "image":"Michael_Y.JPG" , "description":"" }  , 
           { "name":"Luke Humphrey"      , "image":"Luke_H.JPG"    , "description":"" }  , 
           { "name":"Ben Sinai"          , "image":"Ben_S.JPG"     , "description":"" }  , 
-          { "name":"Shrinu Kushagra"    , "image":"Shrinu_K.JPG"  , "description":"" }  , 
-          { "name":"Syed Ubaid Ali"     , "image":"Ali_Syed_Ubaid.JPG"    , "description":"" }  , 
-          { "name":"Jared Gour"         , "image":"Jared_G.JPG"   , "description":"" }  , 
           { "name":"Mohit Batra"        , "image":"Mohit_B.JPG"            , "description":"" }  , 
-          { "name":"Shobhit Chaudhry"   , "image":"Shobit_C.JPG"            , "description":"" }  , 
           { "name":"Dulwin Jayalath"    , "image":"Dulwin_J.JPG"            , "description":"" }  , 
           { "name":"Brent Lewis"        , "image":"Jonathan_Brent_Lewis.JPG"            , "description":"" }  , 
-          { "name":"Matt Kennedy"       , "image":"Matt_K.JPG"            , "description":"" }  , 
-          { "name":"Tristan Walker"     , "image":"Tristan_W.JPG"            , "description":"" }  , 
-          { "name":"Isaac Sy"           , "image":"Isaac_S.JPG"            , "description":"" }  , 
-          { "name":"Kunjan Mehta"       , "image":"Kunjan_M.JPG"            , "description":"" }  , 
-          { "name":"Paresh Prakash"     , "image":"Paresh_P.JPG"            , "description":"" } 
-    ];
+          { "name":"Isaac Sy"           , "image":"Isaac_S.JPG"            , "description":"" }  
+
+];
 
 womens = 
     [
