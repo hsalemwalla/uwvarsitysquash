@@ -1,6 +1,6 @@
 mens = 
     [
-          { "name":"Cameron Seth"       , "image":"Cameron_S.JPG" , "description":"hello" }  , 
+          { "name":"Cameron Seth"       , "image":"Cameron_S.JPG" , "description":"" }  , 
           { "name":"Hussein Salemwalla" , "image":"Hussein_S.JPG" , "description":"" }  , 
           { "name":"Blake Reinson"      , "image":"Blake_R.JPG"   , "description":"" }  , 
           { "name":"Diego Caballero"    , "image":"Diego_C.JPG"   , "description":"" }  , 
@@ -26,7 +26,7 @@ mens =
 
 womens = 
     [
-          { "name":"Marisa Seth"       , "image":"Marisa.JPG"   , "description":"" }  , 
+          { "name":"Marisa Seth"       , "image":"Marisa_S.JPG"   , "description":"" }  , 
           { "name":"Priya Murali"      , "image":"Priya_M.JPG"    , "description":"" }  , 
           { "name":"Tori Sypher"       , "image":"Victoria_S.JPG"    , "description":"" }  , 
           { "name":"Sylvia Jorge"      , "image":"Sylvia_J.JPG"   , "description":"" }  , 
