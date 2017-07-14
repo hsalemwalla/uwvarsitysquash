@@ -1,6 +1,6 @@
 mens = 
     [
-          { "name":"Cameron Seth"       , "image":"Cameron_S.JPG" , "description":"" }  , 
+          { "name":"Cameron Seth"       , "image":"Cameron_S.JPG" , "description":"hello" }  , 
           { "name":"Hussein Salemwalla" , "image":"Hussein_S.JPG" , "description":"" }  , 
           { "name":"Blake Reinson"      , "image":"Blake_R.JPG"   , "description":"" }  , 
           { "name":"Diego Caballero"    , "image":"Diego_C.JPG"   , "description":"" }  , 
