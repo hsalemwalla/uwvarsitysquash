@@ -1,4 +1,4 @@
-# UW Varsity Squash | [uwvarsitysquash.com](uwvarsitysquash.com)
+# UW Varsity Squash | [uwvarsitysquash.com](http://www.uwvarsitysquash.com)
 ---
 *Team website for the University of Waterloo Varsity Squash team*
 
